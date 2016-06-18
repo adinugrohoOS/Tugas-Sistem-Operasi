@@ -64,6 +64,14 @@ public class Pengurangan_Matrik {
             }
                     System.out.println();
             }
+          //Hasil mA / mB
+            System.out.println("Pembagian Matriks A dan Matriks B :");
+            for (int i=0; i<mA.length; i++){
+                for(int j=0; j<mA[i].length; j++){
+                    System.out.print(mA[i][j] / mB[i][j]+" ");
+            }
+                    System.out.println();
+            }
     }
 }
   
