@@ -103,6 +103,22 @@ public class Pengurangan_Matrik {
             }
                     System.out.println();
             }
+            int c[][] = new int[4][4];
+        for(int i=0;i<4;i++){
+            for(int j=0;j<4;j++){
+                c[i][j] = a[i][j]+skalar;
+            }
+        }
+        System.out.println();
+        System.out.println("Matrix A x Skalar = ");
+        for(int i=0;i<4;i++){
+            for(int j=0;j<4;j++){
+                System.out.print(c[i][j]+" ");
+            }
+            System.out.println();
+        }
+        
+        System.out.println(a[0][2]);
 
         }
 
