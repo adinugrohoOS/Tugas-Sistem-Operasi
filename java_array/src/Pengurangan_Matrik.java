@@ -57,13 +57,29 @@ public class Pengurangan_Matrik {
                 System.out.println();
         }
         //Hasil mA - mB
-        System.out.println("Pengurangan Matriks A dan Matriks B :");
+       System.out.println("Tentukan pilihan Operasi perhitungan : 1. Penjumlahan (+) ");
+        System.out.println("                                       2. Pengurangan (-)");
+        System.out.println("Masukkan bilangan yang anda pilih : ");
+        int bil = masukan.nextInt();
+        
+        if (bil==1){
+        System.out.println("Penjumlahan Matriks A dan Matriks B :");
             for (int i=0; i<mA.length; i++){
                 for(int j=0; j<mA[i].length; j++){
-                    System.out.print(mA[i][j] - mB[i][j]+" ");
-            }
+                    System.out.print(mA[i][j]+mB[i][j]+" ");
+                }
+                    System.out.println();
+            }    
+        }else if(bil==2){
+         System.out.println("Pengurangan Matriks A dan Matriks B :");
+            for (int i=0; i<mA.length; i++){
+                for(int j=0; j<mA[i].length; j++){
+                    System.out.print(mA[i][j]-mB[i][j]+" ");
+                }
                     System.out.println();
             }
+        }
+        
     }
 }
   
