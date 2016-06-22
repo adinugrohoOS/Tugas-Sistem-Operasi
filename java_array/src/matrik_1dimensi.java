@@ -16,7 +16,7 @@ public class matrik_1dimensi {
     public static void main(String[] args) {
         // TODO code application logic here
         int m[][] = {{7,2,32},{3,5,12}};
-        
+        int [][] n = {{7,4,5},{5,6,8}};
         //menampilkan matriks m
         System.out.println("Matriks m :");
         for(int i=0; i<m.length; i++)
@@ -28,5 +28,13 @@ public class matrik_1dimensi {
             System.out.println();
           }
    
+        for(int i=0; i<n.length; i++)
+          {
+            for(int j=0; j<n[i].length; j++)
+            {
+                System.out.print(m[i][j]+" ");
+            }
+            System.out.println();
+          }
     }    
 }
