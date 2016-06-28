@@ -24,12 +24,13 @@ public class nilai_kelas {
         
         //tanpa pesan tempat di memory
         int[] nilai_kelas = {100,85,75,88,90};
-        
+        double rata = (nilaikelas[0]+nilaikelas[1]+nilaikelas[2]+nilaikelas[3]+nilaikelas[4])/5;
         System.out.println(nilai_kelas[3]);
         
         System.out.println(nilaikelas[3]);
         nilaikelas[3] = 80;
         System.out.println(nilaikelas[3]);
+        System.out.println("Nilai Rata-rata = "+rata);
     }
     
 }
